@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <title>Frontend Mentor | Bookmark landing page</title>
+  <script src="https://kit.fontawesome.com/fb74b3e607.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <img src="./images/logo-bookmark.svg" alt="" id="logo-img" />
+    <img src="./images/logo-bookmark-white.svg" alt="" id="logo-img-white" />
+    <ul id="ul">
+      <li class="features-li">features</li>
+      <li class="pricing-li">pricing</li>
+      <li class="contact-li">contact</li>
+      <li class="login">login</li>
+      <div class="ul-icons">
+        <img src="./images/icon-facebook.svg" alt="" />
+        <img src="./images/icon-twitter.svg" alt="" />
+      </div>
+    </ul>
+    <div class="bars" id="bars">
+      <div class="bars-bar bar-1"></div>
+      <div class="bars-bar bar-2"></div>
+      <div class="bars-bar bar-3"></div>
+    </div>
+  </nav>
+
+  <section class="main">
+    <img src="./images/illustration-hero.svg" alt="" />
+    <div class="section-text">
+      <h1>A Simple Bookmark Manager</h1>
+      <p>
+        A clean and simple interface to organize your favourite websites. Open
+        a new browser tab and see your sites load instatnly. Try it for free.
+      </p>
+    </div>
+    <div class="main-download-btns">
+      <button class="chrome-btn">Get in on Chrome</button>
+      <button class="firefox-btn">Get it on Firefox</button>
+    </div>
+  </section>
+
+  <!-- SECTION FEATURES -->
+
+  <section class="features">
+    <div class="section-text">
+      <h1>Features</h1>
+      <p>
+        Our aim is to make it quick and easy for you to access your favourite
+        websites. Your bookmarks sync between your devices so you can access
+        them on the go.
+      </p>
+
+    </div>
+    <div class="features-options">
+      <ul class="features-options-ul">
+        <hr />
+        <li id="feature-option-1" class="feature-option active-option">
+          Simple Bookmarking
+        </li>
+        <hr />
+        <li id="feature-option-2" class="feature-option">Speedy Searching</li>
+        <hr />
+        <li id="feature-option-3" class="feature-option">Easy Sharing</li>
+        <hr />
+      </ul>
+      <div class="show-option">
+        <img id="option-img" src="./images/illustration-features-tab-1.svg" alt="" />
+        <div class="section-text">
+          <h1 class="show-option-h1">Bookmark in one click</h1>
+          <p class="show-option-p">
+            Organize your bookmarks however you like. Out simple drag-and-drop
+            interface gives you complete control over how you manage your
+            favourite sites.
+          </p>
+          <button class="more-info feature-info">More info</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION DOWNLOADS -->
+
+    <section class="extension">
+      <div class="section-text">
+        <h1>Download the extension</h1>
+        <p>
+          We've got more browsers in the pipline. Please do let us know if
+          you've got a favourite you'd like us to prioritize.
+        </p>
+      </div>
+      <div class="extension-box box-1">
+        <img class="extension-logo" src="./images/logo-chrome.svg" alt="" />
+        <h1>Add to Chrome</h1>
+        <p>Miniumum version 62</p>
+        <img class="dots" src="./images/bg-dots.svg" alt="" />
+        <button class="install">Add & Install Extension</button>
+      </div>
+      <div class="extension-box box-2">
+        <img class="extension-logo" src="./images/logo-firefox.svg" alt="" />
+        <h1>Add to Firefox</h1>
+        <p>Miniumum version 55</p>
+        <img class="dots" src="./images/bg-dots.svg" alt="" />
+        <button class="install">Add & Install Extension</button>
+      </div>
+      <div class="extension-box box-3">
+        <img class="extension-logo" src="./images/logo-opera.svg" alt="" />
+        <h1>Add to Opera</h1>
+        <p>Miniumum version 46</p>
+        <img class="dots" src="./images/bg-dots.svg" alt="" />
+        <button class="install">Add & Install Extension</button>
+      </div>
+    </section>
+  </section>
+
+  <!-- QUESTIONS SECTION -->
+
+  <section class="questions">
+    <div class="section-text">
+      <h1>Frequenlty Asked</h1>
+      <p>
+        Here are some of our FAQs. If you have any other question you'd like
+        answered please feel free to email us.
+      </p>
+    </div>
+
+    <ul class="question-list">
+      <li>
+        What is bookmark? <i class="fas fa-chevron-down question-arrow-1 question-arrow"></i>
+        <!-- <img class="question-arrow-1 question-arrow" src="./images/icon-arrow.svg" alt="" /> -->
+      </li>
+      <p class="list-p-1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+        tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis
+        quam ornare mattis.
+      </p>
+      <li>
+        How can I request a new browser?<i class="fas fa-chevron-down question-arrow-2 question-arrow"></i>
+      </li>
+      <p class="list-p-2">
+        Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+        ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros
+        aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.
+        Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
+        Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+      </p>
+      <li>
+        Is there a mobile app?<i class="fas fa-chevron-down question-arrow-3 question-arrow"></i>
+      </li>
+      <p class="list-p-3">
+        Sed consectetur quam id neque fermentum accumsan. Praesent luctus
+        vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula
+        quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex
+        et ultricies bibendum.
+      </p>
+      <li>
+        What about other Chromium browsers?<i class="fas fa-chevron-down question-arrow-4 question-arrow"></i>
+      </li>
+      <p class="list-p-4">
+        Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat
+        mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque
+        non ut velit.
+      </p>
+    </ul>
+    <button class="more-info">More info</button>
+
+  </section>
+
+  <section class="subscription">
+    <h3>35,000+ already joined</h3>
+    <h1>Stay up-to-date with what we're doing</h1>
+    <div class="email-box">
+      <input onkeyup="check()" type="email" id="email" required placeholder="Enter your email address">
+      <img class="icon1" src="/images/icon-error.svg" alt="">
+      <div class="error-text">
+        <p>Whoops, make sure it's an email</p>
+      </div>
+      <button class="contact">Contact Us</button>
+    </div>
+  </section>
+
+  <section class="footer">
+    <img src="./images/logo-bookmark-white.svg" class="logo-img" />
+    <ul class="footer-ul">
+      <li class="footer-li">features</li>
+      <li class="footer-li">pricing</li>
+      <li class="footer-li">contact</li>
+      <div class="footer-icons">
+        <img src="./images/icon-facebook.svg" alt="" />
+        <img src="./images/icon-twitter.svg" alt="" />
+      </div>
+    </ul>
+  </section>
+
+  <footer>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="#">Your Name Here</a>.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
